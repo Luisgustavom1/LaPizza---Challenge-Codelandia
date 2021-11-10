@@ -1,13 +1,3 @@
-// $theme-colors: (
-//   "primary":   #CF3031,
-//   "secondary":  #FFA200,
-//   "green": #5C913B,
-//   "textPrimary": #2E2E2E,
-//   "textSecondary": #616161,
-//   "bege": #FFD4C9,
-//   "white-custom": #FEF6F4,
-// );
-
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -109,9 +99,33 @@ $theme-colors: (
 @import "../../node_modules/bootstrap/scss/root";
 
 html {
-    font-family: 'Sora', sans-serif;
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 button, textarea, input {
   font-family: 'Sora', sans-serif;
+}
+
+.text-white-custom {
+  color: $white-custom;
+}
+
+.text-green-custom {
+  color: $green-custom;
+}
+
+.text-dark-custom {
+  color: $dark-custom;
+}
+
+.text-gray-custom {
+  color: $gray-custom;
+}
+
+.text-bege-custom {
+  color: $bege-custom;
 }
