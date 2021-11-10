@@ -15,7 +15,7 @@ const Cards = ({ title, description, price, image }: CardsProps) => {
   return(
     <Card className='card bg-bege-custom border-0 text-center rounded-25 mx-auto'>
         <Row tag='section'>
-            <Col md='8'>
+            <Col md='7'>
                 <img
                     className='img-pizza img-fluid mt--5'
                     src={image}

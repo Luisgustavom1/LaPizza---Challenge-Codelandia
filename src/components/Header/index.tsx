@@ -3,6 +3,7 @@ import { Row } from 'reactstrap';
 
 import pizzaImg from '../../assets/svg/getulio-moraes-Wz3u9_GtkWc-unsplash 1.png'
 
+import plant from '../../assets/svg/plant.png'
 import './styles.scss'
 
 const Header: React.FC = () => {
@@ -16,6 +17,11 @@ const Header: React.FC = () => {
           <p className='text-green-custom'>z</p>
           a
         </div>
+        <img 
+          src={plant}
+          alt='Imagem Planta'
+          className='img-plant position-absolute'
+        />
       </Row>
   );
 }

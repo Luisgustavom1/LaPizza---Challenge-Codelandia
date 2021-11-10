@@ -18,3 +18,28 @@
     height: 141.5px;
     width: 141.5px;
 }
+
+.card-pizza-2 {
+    height: 128.2px;
+    width: 128.2px;
+
+    bottom: 10%;
+    right: 12%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+        height: 128.2px;
+        width: 128.2px;
+    }
+}
+
+.img-tomato {
+    height: 132.2px;
+    width: 170px;
+
+    right: 12vw;
+    top: -10%;
+}
