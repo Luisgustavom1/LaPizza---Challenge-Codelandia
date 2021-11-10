@@ -13,7 +13,7 @@ interface CardsProps {
 
 const Cards = ({ title, description, price, image }: CardsProps) => {
   return(
-    <Card className='card bg-bege-custom border-0 text-center rounded-25'>
+    <Card className='card bg-bege-custom border-0 text-center rounded-25 mx-auto'>
         <Row tag='section'>
             <Col md='8'>
                 <img
@@ -23,7 +23,7 @@ const Cards = ({ title, description, price, image }: CardsProps) => {
                 />
             </Col>
             <Col>
-                <Card className='border border-danger bege-dark-custom container-icon d-flex align-items-center justify-content-center ms-4  mt--3'>
+                <Card className='border border-danger bg-bege-dark-custom container-icon d-flex align-items-center justify-content-center ms-4  mt--3'>
                     <img
                         className='icon-heart'
                         src={heart}

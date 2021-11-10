@@ -46,6 +46,7 @@ $gray-custom: #616161 !default;
 $bege-custom: #FEF6F4 !default;
 $bege-dark-custom: #FFD4C9 !default;
 $white-custom: #FEF6F4 !default;
+$gray-light-custom: #FCFCFC !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -92,7 +93,8 @@ $theme-colors: (
   "gray-custom": $gray-custom,
   "bege-custom": $bege-custom,
   "bege-dark-custom": $bege-dark-custom,
-  "white-custom": $white-custom
+  "white-custom": $white-custom,
+  "gray-light-custom": $gray-light-custom,
 ) !default;
 
 @import "../../node_modules/bootstrap/scss/functions";
@@ -136,8 +138,12 @@ button, textarea, input {
   background: $bege-custom !important;
 }
 
-.bege-dark-custom {
+.bg-bege-dark-custom {
   background: $bege-dark-custom !important;
+}
+
+.bg-gray-light-custom {
+  background: $gray-light-custom !important;
 }
 
 .mt--1 {
@@ -178,6 +184,26 @@ button, textarea, input {
 
 .mb--5 {
   margin-bottom: -3rem !important;
+}
+
+.ms--1 {
+  margin-left: -0.25rem !important;
+}
+
+.ms--2 {
+  margin-left: -0.5rem !important;
+}
+
+.ms--3 {
+  margin-left: -1rem !important;
+}
+
+.ms--4 {
+  margin-left: -1.5rem !important;
+}
+
+.ms--5 {
+  margin-left: -3rem !important;
 }
 
 .text-12 {

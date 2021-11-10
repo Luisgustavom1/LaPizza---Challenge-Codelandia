@@ -3,6 +3,7 @@ import Header from './components/Header'
 
 import laCuma from './assets/svg/image 16.png';
 import ContainerCards from './components/ContainerCards';
+import SectionRestaurant from './components/SectionRestaurant';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           price={'20'}
         />
       </ContainerCards>
+      <SectionRestaurant />
     </>
   )
 }
