@@ -43,7 +43,8 @@ $yellow-custom: #FFA200 !default;
 $green-custom: #5C913B !default;
 $dark-custom: #2E2E2E !default;
 $gray-custom: #616161 !default;
-$bege-custom: #FFD4C9 !default;
+$bege-custom: #FEF6F4 !default;
+$bege-dark-custom: #FFD4C9 !default;
 $white-custom: #FEF6F4 !default;
 // scss-docs-end color-variables
 
@@ -90,6 +91,7 @@ $theme-colors: (
   "dark-custom": $dark-custom,
   "gray-custom": $gray-custom,
   "bege-custom": $bege-custom,
+  "bege-dark-custom": $bege-dark-custom,
   "white-custom": $white-custom
 ) !default;
 
@@ -111,21 +113,105 @@ button, textarea, input {
 }
 
 .text-white-custom {
-  color: $white-custom;
+  color: $white-custom !important;
 }
 
 .text-green-custom {
-  color: $green-custom;
+  color: $green-custom !important;
 }
 
 .text-dark-custom {
-  color: $dark-custom;
+  color: $dark-custom !important;
 }
 
 .text-gray-custom {
-  color: $gray-custom;
+  color: $gray-custom !important;
 }
 
 .text-bege-custom {
-  color: $bege-custom;
+  color: $bege-custom !important;
+}
+
+.bg-bege-custom {
+  background: $bege-custom !important;
+}
+
+.bege-dark-custom {
+  background: $bege-dark-custom !important;
+}
+
+.mt--1 {
+  margin-top: -0.25rem !important;
+}
+
+.mt--2 {
+  margin-top: -0.5rem !important;
+}
+
+.mt--3 {
+  margin-top: -1rem !important;
+}
+
+.mt--4 {
+  margin-top: -1.5rem !important;
+}
+
+.mt--5 {
+  margin-top: -3rem !important;
+}
+
+.mb--1 {
+  margin-bottom: -0.25rem !important;
+}
+
+.mb--2 {
+  margin-bottom: -0.5rem !important;
+}
+
+.mb--3 {
+  margin-bottom: -1rem !important;
+}
+
+.mb--4 {
+  margin-bottom: -1.5rem !important;
+}
+
+.mb--5 {
+  margin-bottom: -3rem !important;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.text-32 {
+  font-size: 32px;
+}
+
+.text-36 {
+  font-size: 36px;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.button-card {
+  width: 157px;
+}
+
+.rounded-25 {
+  border-radius: 25px;
 }
